@@ -1,0 +1,21 @@
+{
+  "name": "autoupdater-large-file-test",
+  "productName": "AutoUpdaterTest",
+  "version": "1.0.0",
+  "description": "Electron autoUpdater test — reproduce macOS crash with installers over 1 GB",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^8.0.0",
+    "@electron-forge/maker-squirrel": "^8.0.0",
+    "@electron-forge/maker-zip": "^8.0.0",
+    "electron": "^43.0.0"
+  }
+}
